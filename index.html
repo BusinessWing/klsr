@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="HomeBrew problems : problem in installing Homebrew on Mac OS X" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>HomeBrew problems</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/BusinessWing/klsr">View on GitHub</a>
+
+          <h1 id="project_title">HomeBrew problems</h1>
+          <h2 id="project_tagline">problem in installing Homebrew on Mac OS X</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/BusinessWing/klsr/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/BusinessWing/klsr/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>I am not sure if this is ok to put my questions in installing HomeBrew here. if no good, please somebody tell me, I will try other way to solve my problem. @@</p>
+
+<p>After I installed the Homebrew on Mac OSX, and run the brew doctor, what I've got is following warnings.. </p>
+
+<h2>Please anyone help me out. I am very beginner on programing. </h2>
+
+<p>Warning: Some directories in /usr/local/share/locale aren't writable.
+This can happen if you "sudo make install" software that isn't managed
+by Homebrew. If a brew tries to add locale information to one of these
+directories, then the install will fail during the link step.
+You should probably <code>chown</code> them:</p>
+
+<pre><code>/usr/local/share/locale/be
+/usr/local/share/locale/be/LC_MESSAGES
+/usr/local/share/locale/ca
+/usr/local/share/locale/ca/LC_MESSAGES
+/usr/local/share/locale/cs
+/usr/local/share/locale/cs/LC_MESSAGES
+/usr/local/share/locale/da
+/usr/local/share/locale/da/LC_MESSAGES
+/usr/local/share/locale/de
+/usr/local/share/locale/de/LC_MESSAGES
+/usr/local/share/locale/el
+/usr/local/share/locale/el/LC_MESSAGES
+/usr/local/share/locale/en@boldquot
+/usr/local/share/locale/en@boldquot/LC_MESSAGES
+/usr/local/share/locale/en@quot
+/usr/local/share/locale/en@quot/LC_MESSAGES
+/usr/local/share/locale/eo
+/usr/local/share/locale/eo/LC_MESSAGES
+/usr/local/share/locale/es
+/usr/local/share/locale/es/LC_MESSAGES
+/usr/local/share/locale/et
+/usr/local/share/locale/et/LC_MESSAGES
+/usr/local/share/locale/fi
+/usr/local/share/locale/fi/LC_MESSAGES
+/usr/local/share/locale/fr
+/usr/local/share/locale/fr/LC_MESSAGES
+/usr/local/share/locale/gl
+/usr/local/share/locale/gl/LC_MESSAGES
+/usr/local/share/locale/hu
+/usr/local/share/locale/hu/LC_MESSAGES
+/usr/local/share/locale/id
+/usr/local/share/locale/id/LC_MESSAGES
+/usr/local/share/locale/it
+/usr/local/share/locale/it/LC_MESSAGES
+/usr/local/share/locale/ja
+/usr/local/share/locale/ja/LC_MESSAGES
+/usr/local/share/locale/nb
+/usr/local/share/locale/nb/LC_MESSAGES
+/usr/local/share/locale/nl
+/usr/local/share/locale/nl/LC_MESSAGES
+/usr/local/share/locale/pl
+/usr/local/share/locale/pl/LC_MESSAGES
+/usr/local/share/locale/pt
+/usr/local/share/locale/pt/LC_MESSAGES
+/usr/local/share/locale/pt_BR
+/usr/local/share/locale/pt_BR/LC_MESSAGES
+/usr/local/share/locale/ro
+/usr/local/share/locale/ro/LC_MESSAGES
+/usr/local/share/locale/ru
+/usr/local/share/locale/ru/LC_MESSAGES
+/usr/local/share/locale/sk
+/usr/local/share/locale/sk/LC_MESSAGES
+/usr/local/share/locale/sv
+/usr/local/share/locale/sv/LC_MESSAGES
+/usr/local/share/locale/tr
+/usr/local/share/locale/tr/LC_MESSAGES
+/usr/local/share/locale/zh_CN
+/usr/local/share/locale/zh_CN/LC_MESSAGES
+/usr/local/share/locale/zh_TW
+/usr/local/share/locale/zh_TW/LC_MESSAGES
+</code></pre>
+
+<p>Warning: Unbrewed dylibs were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.</p>
+
+<p>Unexpected dylibs:
+    /usr/local/lib/libmacfuse_i32.2.dylib
+    /usr/local/lib/libmacfuse_i64.2.dylib
+    /usr/local/lib/libosxfuse_i32.2.dylib
+    /usr/local/lib/libosxfuse_i64.2.dylib</p>
+
+<p>Warning: Unbrewed .la files were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.</p>
+
+<p>Unexpected .la files:
+    /usr/local/lib/libosxfuse_i32.la
+    /usr/local/lib/libosxfuse_i64.la</p>
+
+<p>Warning: Unbrewed .pc files were found in /usr/local/lib/pkgconfig.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.</p>
+
+<p>Unexpected .pc files:
+    /usr/local/lib/pkgconfig/osxfuse.pc</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">HomeBrew problems maintained by <a href="https://github.com/BusinessWing">BusinessWing</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
